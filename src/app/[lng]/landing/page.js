@@ -18,7 +18,8 @@ function Landing() {
       <section
         style={{
           backgroundImage: `url(${backgroundImage?.src})`,
-          backgroundSize: "contain",
+          backgroundSize: "cover",
+          backgroundRepeat:"no-repeat",
         }}
         className="relative bg-cover bg-center lg:h-[888px] md:h-[664px] "
       >
